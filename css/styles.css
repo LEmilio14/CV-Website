@@ -56,7 +56,7 @@ p {
 .top-container {
   background-color: #7C99AC;
   position: relative;
-  padding-top: 100px
+  padding-top: 100px; 
 }
 
 .middle-container {
@@ -109,10 +109,6 @@ p {
 .chillies-icon {
   width: 25%;
   float: right;
-}
-
-.mountain-img {
-  padding-bottom: 30px;
 }
 
 .contact-message {
