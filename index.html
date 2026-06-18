@@ -1,61 +1,93 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Luis Guerrero</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luis Guerrero | Product Manager</title>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" href="favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 </head>
-
 <body>
-  <div class="top-container">
-    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
-    <h1>I'm Luis.</h1>
-    <h2>A Systems Engineer.</h2>
-    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
-    <img class="mountain-img" src="images/mountain.png" alt="mountain-img">
-  </div>
 
-  <div class="middle-container">
-    <div class="profile">
-      <img class="profile-picture" src="images/profile_picture-modified.png" alt="Profile Picture">
-      <h2>Hello.</h2>
-      <p  class="intro">Systems engineer at <a href="https://www.supermicro.com/en/"><em>Supermicro.</em></a></p>
-    </div>
-    <hr>
-    <div class="skills">
-      <h2>My Technical Skills.</h2>
-
-      <div class="skill-row">
-        <img class="computer-icon" src="images/computer.png" alt="programmer">
-        <h3>Programmer.</h3>
-        <p>I have experience in C++, Python, Swift, Java, HTML, and JavaScript.</p>
-      </div>
-
-      <div class="skill-row">
-        <img class="chillies-icon" src="images/chillies.png" alt="hot-skills">
-        <h3>I've created small websites and iOS apps.</h3>
-        <p>I have some of my personal projects in my Github account. (link at the bottom).</p>
+  <!-- Hero Section -->
+  <header class="hero-section">
+    <div class="container">
+      <div class="terminal-badge">ls ~/_biography</div>
+      <h1>I'm <span class="highlight">Luis Guerrero</span>.</h1>
+      <h2>Systems Engineer & Developer</h2>
+      <p class="hero-subtext">Specializing in high-performance architecture, automated testing, and infrastructure engineering.</p>
+      <div class="cta-buttons">
+        <a href="#contact" class="btn btn-primary">Get In Touch</a>
+        <a href="#skills" class="btn btn-secondary">View Capabilities</a>
       </div>
     </div>
-    <hr>
-    <div class="contact-me">
-      <h2>Get In Touch</h2>
-      <h3>If you need my skills.</h3>
-      <p class="contact-message">If you have any questions or want to contact me, feel free to do so.</p>
-      <a class="btn" href="mailto:emilioguerre98@gmail.com">CONTACT ME</a>
-    </div>
-  </div>
+  </header>
 
-  <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/in/luis-emilio-guerrero-6528b1172/">LinkedIn</a>
-    <a class="footer-link" href="https://github.com/LEmilio14">Github</a>
-    <p class="copy-right">© Luis Guerrero.</p>
-  </div>
+  <!-- Main Content Container -->
+  <main class="container">
+    
+    <!-- Profile Intro -->
+    <section class="profile-section">
+      <div class="profile-card">
+        <img src="images/profile_picture-modified.png" alt="Luis Guerrero" class="profile-img">
+        <div class="profile-text">
+          <h3>Hello.</h3>
+          <p>I am a Systems Engineer at <a href="https://www.supermicro.com/en/" target="_blank" rel="noopener">Supermicro</a>, focused on validating, optimizing, and scaling complex server platforms. I bridge the gap between heavy enterprise hardware architectures and software automation.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section id="skills" class="skills-section">
+      <h2 class="section-title">Technical Expertise</h2>
+      
+      <div class="skills-grid">
+        <!-- Card 1: Systems & Architecture -->
+        <div class="skill-card">
+          <div class="skill-icon">🧬</div>
+          <h3>Systems & Architecture</h3>
+          <p>Designing, configuring, and optimizing high-density multi-node architectures, cluster hardware configurations, and specialized enterprise deployments.</p>
+        </div>
+
+        <!-- Card 2: Automation & Scripts -->
+        <div class="skill-card">
+          <div class="skill-icon">⚡</div>
+          <h3>Automation & Scripting</h3>
+          <p>Developing custom monitoring tools and validation frameworks utilizing Python, PowerShell, Bash, and hardware telemetry tools.</p>
+        </div>
+
+        <!-- Card 3: Software Engineering -->
+        <div class="skill-card">
+          <div class="skill-icon">💻</div>
+          <h3>Software Engineering</h3>
+          <p>Experience writing clean, robust code across systems programming, applications, and tools using C++, Python, Java, Swift, and JavaScript.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="contact-card">
+        <h2>Execute Engagement</h2>
+        <h3>Have an engineering challenge or a system problem to solve?</h3>
+        <p>Whether you're looking to discuss server validation pipelines, infrastructure telemetry, or software projects, feel free to reach out.</p>
+        <a href="mailto:emilioguerre98@gmail.com" class="btn btn-primary">CONTACT ME</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-links">
+      <a href="https://www.linkedin.com/in/luis-emilio-guerrero-6528b1172/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/LEmilio14" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <p class="copyright">© Luis Guerrero. Powered by Code & Metal.</p>
+  </footer>
+
 </body>
-
 </html>
